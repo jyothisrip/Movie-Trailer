@@ -1,3 +1,3 @@
 # Movie-Trailer
-It shows movies images
-Movie trailers are shown
+It shows movies images.
+Movie trailers are shown.
