@@ -126,7 +126,6 @@ main_page_content = '''
   </body>
 </html>
 '''
-
 # A single movie entry html template
 movie_tile_content = '''
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="{trailer_youtube_id}" data-toggle="modal" data-target="#trailer">
@@ -135,7 +134,6 @@ movie_tile_content = '''
     <p style="font-family:gigi;">{storyline}</p>
 </div>
 '''
-
 def create_movie_tiles_content(movies):
     # The HTML content for this section of the page
     content = ''
@@ -153,7 +151,6 @@ def create_movie_tiles_content(movies):
             trailer_youtube_id=trailer_youtube_id
         )
     return content
-
 def open_movies_page(movies):
   # Create or overwrite the output file
   output_file = open('fresh_tomatoes.html', 'w')
