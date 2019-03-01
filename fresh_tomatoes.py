@@ -92,7 +92,6 @@ main_page_head = '''
     </script>
 </head>
 '''
-
 # The main page layout and title bar
 main_page_content = '''
 <!DOCTYPE html>
